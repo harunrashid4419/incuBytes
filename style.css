@@ -38,12 +38,31 @@ body{
 .banner-section .banner span{
     color: #4066C4;
 }
-.banner-section .banner img{
+.banner-section .banner .main-img{
     width: 300px;
     background: #8ABBE7;
     border-radius: 50%;
     height: 300px;
     padding: 15px;
+}
+.banner-section .banner .top-img {
+    position: absolute;
+    top: 0;
+    left: 21%;
+    width: 175px;
+}
+.banner-section .banner .left-img {
+    position: absolute;
+    left: 0;
+    bottom: -40px;
+    width: 140px;
+}
+.banner-section .banner .right-img {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(0%, -50%);
+    width: 102px;
 }
 
 
